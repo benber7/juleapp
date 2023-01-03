@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/forms.css">
+    <title>Ønskeliste</title>
+</head>
+<body>
+    <h1>Ønskelister</h1>
+
+    <p> Antall barn: {{ppl}}</p>
+
+    <p> Antall slemme barn: {{slem}}</p>
+    <hr>
+
+    <button id="slettSlemLister">Slett alle "slemme-barn" lister</button>
+
+    <button id="slettListe">Slett alle lister</button>
+
+    <h2>Ønskelister</h2>
+    <hr>
+
+    <div class="content">
+        {{#each svarTabell}}
+            <h3>{{this.navn}}</h3>
+            <p>{{this.oppforsel}}</p>
+            <p>{{this.onsker}}</p>
+        {{/each}}
+    </div>
+
+</body>
+<footer>
+    <button>
+        <a href="/index.html">Til fremsiden</a>
+    </button>
+</footer>
+</html>

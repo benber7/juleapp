@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../CSS/forms.css" rel="stylesheet" type="text/css">
+    <title>Ønskeliste</title>
+</head>
+<body>
+    <h1>Ønskeliste</h1>
+
+    <form action="/sendinn" method="POST">
+        <label for="navn">Navn: </label>
+        <input type="text" name="navn" placeholder="Ditt navn">
+        <br>
+
+        <label for="oppforsel">Snill eller slem?</label>
+        <br>
+        <input type="radio" name="oppforsel" value="Snill">Snill
+        <input type="radio" name="oppforsel" value="Slem">Slem
+        <br>
+
+        <br>
+        <label for="onsker">Ønsker</label>
+        <br>
+        <input type="text" name="onsker[]" placeholder="Ønske 1">
+        <br>
+        <input type="text" name="onsker[]" placeholder="Ønske 2">
+        <br>
+        <input type="text" name="onsker[]" placeholder="Ønske 3">
+        <br>
+        <input type="text" name="onsker[]" placeholder="Ønske 4">
+        <br>
+        <input type="text" name="onsker[]" placeholder="Ønske 5">
+        <br>
+        <input type="text" name="onsker[]" placeholder="Ønske 6">
+        <br>
+        <input type="text" name="onsker[]" placeholder="Ønske 7">
+        <br>
+        <input type="text" name="onsker[]" placeholder="Ønske 8">
+        <br>
+        <input type="text" name="onsker[]" placeholder="Ønske 9">
+        <br>
+        <input type="text" name="onsker[]" placeholder="Ønske 10">
+        <br>
+        
+        <button id="sendInn">Send inn</button>
+    </form>
+</body>
+<footer>
+    <button>
+        <a href="/index.html">Til fremsiden</a>
+    </button>
+</footer>
+</html>

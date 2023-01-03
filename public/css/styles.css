@@ -1,0 +1,40 @@
+body{
+    position: relative;
+    width: 360px;
+    height: 851px;
+    background: #AE0000;
+}
+
+h1{
+    position: center;
+    width: 360px;
+    height: 49px;
+    left: 0px;
+    top: 34px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+button{
+    position: center;
+    width: 212px;
+    height: 39px;
+    left: 74px;
+    top: 101px;
+    
+
+    background: #FFFFFF;
+}
+
+.content p {
+    padding: 20px;
+    background-color: grey;
+    margin: 20px;
+}
